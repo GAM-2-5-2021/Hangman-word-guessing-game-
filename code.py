@@ -11,7 +11,7 @@ word_list = ['Aatrox', 'Ekko', 'Jinx', 'Miss Fortune', 'Shen', 'Varus', 'Ahri', 
                  'Heimerdinger', 'Leona', 'Rammus', 'Teemo', 'Zac', 'Camille', 'Illaoi', 'Lissandra', 'Rek Sai', 'Thresh', 'Zed',
                  'Cassiopeia', 'Irelia', 'Lucian', 'Renekton', 'Tristana', 'Ziggs', 'Cho Gath', 'Ivern', 'Lulu', 'Rengar', 'Trundle',
                  'Zilean', 'Corki', 'Janna', 'Lux', 'Riven', 'Tryndamere', 'Zyra', 'Darius', 'Jarvan IV', 'Malphite', 'Rumble', 
-                 'Twisted Fate', 'Diana', 'Jax', 'Malzahar', 'Ryze', 'Twitch', 'Dr. Mundo', 'Jayce', 'Maokai', 'Sejuani', 'Udyr', 
+                 'Twisted Fate', 'Diana', 'Jax', 'Malzahar', 'Ryze', 'Twitch', 'Dr.Mundo', 'Jayce', 'Maokai', 'Sejuani', 'Udyr', 
                  'Draven', 'Jhin', 'Master Yi', 'Shaco', 'Urgot']
 
 def get_word():
@@ -26,7 +26,7 @@ def play(word):
     guessed_words = []
     print("Let's play Hangman!")
     print('There is a twist though, instead of everyday normal words, ')
-    print('you will be tested your champion knowledge from a video game called Leuge of Legends!')
+    print('you will be tested your champion knowledge from a video game called League of Legends!')
     print('Good luck!')
     print('\n')
     print('Your word contains', len(word), 'letters.')
@@ -79,10 +79,6 @@ def main():
         word = get_word()
         play(word)
 
+main()
 
-if __name__ == "__main__":
-    main()
-
-    word = random.choice(word_list)
-    return word.upper()
-
+# :D
